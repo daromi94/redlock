@@ -4,5 +4,5 @@ import java.util.List;
 
 public interface RequestStore {
 
-  List<Request> inWindow(long fromTimestamp, long toTimestamp);
+  List<Request> inWindow(final String ip, final Window window);
 }
