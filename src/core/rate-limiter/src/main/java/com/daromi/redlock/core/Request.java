@@ -1,3 +1,3 @@
 package com.daromi.redlock.core;
 
-public record Request(String ip, long timestamp) {}
+public record Request(String ip, Timestamp timestamp) {}
